@@ -209,20 +209,20 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-add_executable(talker1 src/talker1.cpp)
-target_link_libraries(talker1 ${catkin_LIBRARIES})
+#add_executable(talker1 src/talker1.cpp)
+#target_link_libraries(talker1 ${catkin_LIBRARIES})
 
-add_executable(listener1 src/listener1.cpp)
-target_link_libraries(listener1 ${catkin_LIBRARIES})
+#add_executable(listener1 src/listener1.cpp)
+#target_link_libraries(listener1 ${catkin_LIBRARIES})
 
-add_executable(talker2 src/talker2.cpp)
-target_link_libraries(talker2 ${catkin_LIBRARIES})
+#add_executable(talker2 src/talker2.cpp)
+#target_link_libraries(talker2 ${catkin_LIBRARIES})
 
-add_executable(talker3 src/talker3.cpp)
-target_link_libraries(talker3 ${catkin_LIBRARIES})
+#add_executable(talker3 src/talker3.cpp)
+#target_link_libraries(talker3 ${catkin_LIBRARIES})
 
-add_executable(add_two_ints_client src/add_two_ints_client.cpp)
-target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})
+#add_executable(add_two_ints_client src/add_two_ints_client.cpp)
+#target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})
 
-add_executable(add_two_ints_server src/add_two_ints_server.cpp)
-target_link_libraries(add_two_ints_server ${catkin_LIBRARIES})
+#add_executable(add_two_ints_server src/add_two_ints_server.cpp)
+#target_link_libraries(add_two_ints_server ${catkin_LIBRARIES})
